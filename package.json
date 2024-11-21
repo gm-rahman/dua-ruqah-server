@@ -2,9 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node api.js && node server.js"
   },
   "author": "",
   "license": "ISC",
